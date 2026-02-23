@@ -1,8 +1,6 @@
-#  SECTION D: File I/O — CSV Files
-# ============================================================
-#
-#  *** TASK 2 *** Complete these two functions:
-import subprocess
+
+#TASK 2
+
 import csv
 from datetime import datetime
 
@@ -15,7 +13,7 @@ def log_to_csv(filename, command, target, result, status):
 
 
 def read_csv_log(filename):
-   
+
     with open(filename, "r", newline="") as file:
         reader = csv.reader(file)
         for row in reader:

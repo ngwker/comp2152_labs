@@ -1,5 +1,5 @@
 
-#  *** TASK 1 ***
+#  TASK 1
 
 from datetime import datetime
 def write_to_log(filename, entry):
